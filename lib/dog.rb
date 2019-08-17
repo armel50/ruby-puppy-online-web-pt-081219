@@ -4,6 +4,7 @@ class Dog
     @name = name 
     @@all << self
   end 
+  attr_reader :name
   
   def self.all
     @@all
