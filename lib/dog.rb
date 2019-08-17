@@ -9,4 +9,7 @@ class Dog
     @@all
   end
   
+  def self.print_all
+    @@all.each{|el| puts el.@name}
+  end
 end
